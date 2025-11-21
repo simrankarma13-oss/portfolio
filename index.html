@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simran Vishwakarma — Portfolio</title>
+    <style>
+      :root{ --bg:#0f1724; --card:#0b1220; --muted:#9aa7bd; --accent:#4f46e5; --glass: rgba(255,255,255,0.03);} 
+      *{box-sizing:border-box}
+      body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:linear-gradient(180deg,#071026 0%, #08132a 100%); color:#e6eef8; -webkit-font-smoothing:antialiased}
+      .container{max-width:980px;margin:48px auto;padding:28px}
+      header{display:flex;gap:20px;align-items:center}
+      .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:white}
+      h1{margin:0;font-size:28px}
+      .subtitle{color:var(--muted);margin-top:6px}
+      .links{margin-left:auto;display:flex;gap:12px}
+      a.btn{background:var(--glass);padding:8px 12px;border-radius:10px;color:inherit;text-decoration:none;border:1px solid rgba(255,255,255,0.04);font-weight:600}
+      main{margin-top:28px;display:grid;grid-template-columns:1fr 320px;gap:24px}
+      .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:18px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 6px 18px rgba(2,6,23,0.5)}
+      .about p{color:var(--muted);line-height:1.6}
+      .section-title{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+      .section-title h3{margin:0}
+      ul.skills{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+      ul.skills li{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:8px;color:#cfe7ff;font-weight:600}
+      .projects .proj{margin-bottom:14px}
+      .proj h4{margin:0}
+      .right .contact p{margin:6px 0;color:var(--muted)}
+      footer{max-width:980px;margin:28px auto 80px;color:var(--muted);text-align:center}
+      @media (max-width:880px){main{grid-template-columns:1fr} .links{display:none}}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="avatar">SV</div>
+        <div>
+          <h1>Simran Vishwakarma</h1>
+          <div class="subtitle">Motivated, growth-oriented professional — problem solver, quick learner, collaborator.</div>
+        </div>
+
+        <div class="links">
+          <a class="btn" href="https://www.linkedin.com/in/simran-vishwakarma13" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+      </header>
+
+      <main>
+        <section>
+          <div class="card about">
+            <div class="section-title"><h3>Summary</h3></div>
+            <p>
+              I am a motivated and growth-oriented professional with a strong foundation in delivering high-quality work and learning quickly on the job. I have a passion for creating practical solutions that drive measurable results and enjoy collaborating across teams to ship impactful work.
+            </p>
+            <p>
+              Core strengths include adaptability, effective communication, and a results-focused mindset. I continuously seek to expand my skill set and take on challenging projects that broaden my impact.
+            </p>
+
+            <div style="margin-top:16px">
+              <div class="section-title"><h3>Skills</h3></div>
+              <ul class="skills">
+                <li>Problem Solving</li>
+                <li>Communication</li>
+                <li>Project Collaboration</li>
+                <li>Time Management</li>
+                <li>Quick Learning</li>
+              </ul>
+            </div>
+
+            <div style="margin-top:18px" class="projects">
+              <div class="section-title"><h3>Selected Projects</h3></div>
+
+              <div class="proj">
+                <h4>Project One — Title</h4>
+                <p style="color:var(--muted);margin:6px 0">A short description of a project you led or contributed to. Mention impact, tools used, and measurable outcome where possible (e.g., "improved X by Y%").</p>
+              </div>
+
+              <div class="proj">
+                <h4>Project Two — Title</h4>
+                <p style="color:var(--muted);margin:6px 0">Another project summary. If you want, replace these placeholders with real project details and I will update the page for you.</p>
+              </div>
+            </div>
+
+            <div style="margin-top:18px">
+              <div class="section-title"><h3>Experience</h3></div>
+              <div style="color:var(--muted);">
+                <p style="margin:6px 0"><strong>Role / Company</strong> — Date range</p>
+                <p style="margin:6px 0">Short bullet-style summary of responsibilities and accomplishments. Replace with your actual experience details.</p>
+              </div>
+            </div>
+
+            <div style="margin-top:18px">
+              <div class="section-title"><h3>Education</h3></div>
+              <p style="color:var(--muted);margin:6px 0"><strong>Degree</strong>, Institution — Year</p>
+            </div>
+
+          </div>
+        </section>
+
+        <aside class="right">
+          <div class="card contact" id="contact">
+            <div class="section-title"><h3>Contact</h3></div>
+            <p style="color:var(--muted)">LinkedIn: <a href="https://www.linkedin.com/in/simran-vishwakarma13" target="_blank" rel="noopener noreferrer">simran-vishwakarma13</a></p>
+            <p style="color:var(--muted)">Email: <em>youremail@example.com</em></p>
+            <p style="color:var(--muted)">Location: <em>City, Country</em></p>
+
+            <div style="margin-top:14px">
+              <div class="section-title"><h3>Quick Facts</h3></div>
+              <p style="color:var(--muted);margin:6px 0">Open to: <strong>Full-time / Freelance / Collaboration</strong></p>
+              <p style="color:var(--muted);margin:6px 0">Availability: <strong>Immediate / By arrangement</strong></p>
+            </div>
+
+            <div style="margin-top:14px">
+              <div class="section-title"><h3>Download</h3></div>
+              <p style="color:var(--muted);margin:6px 0">To get a printable version of this portfolio, copy the page into a local HTML file (index.html) and print to PDF from your browser.</p>
+            </div>
+
+          </div>
+
+          <div style="height:18px"></div>
+
+          <div class="card">
+            <div class="section-title"><h3>Let's connect</h3></div>
+            <p style="color:var(--muted)">I'm happy to update this file with your real experience, projects, and education. Send me the details and I'll integrate them directly into this index.html.</p>
+            <div style="margin-top:12px"><a class="btn" href="https://www.linkedin.com/in/simran-vishwakarma13" target="_blank" rel="noopener noreferrer">View LinkedIn</a></div>
+          </div>
+        </aside>
+      </main>
+
+    </div>
+
+    <footer>
+      Built for <strong>Simran Vishwakarma</strong> — Portfolio • Generated by assistant
+    </footer>
+  </body>
+</html>
